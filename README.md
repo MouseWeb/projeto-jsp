@@ -16,18 +16,6 @@ Parar o projeto
 mvn spring-boot:stop
 ```
 
-### Usando Maven + Jar
-
-Gerar o arquivo jar
-```shell
-mvn clean install
-```
-
-Executar o projeto
-```shell
-java -jar target/projeto-jsp.jar  
-```
-
 [Acesse projeto](http://localhost:8080/)
 
 
@@ -37,26 +25,44 @@ java -jar target/projeto-jsp.jar
 docker-compose -f docker/docker-compose.yaml up
 ```
 
-[Acesse projeto](http://localhost:8080/)
-
-
-```shell
-docker-compose -f docker/docker-compose.yaml down
-```
-
 ### Usando SonarCloud
 
-[Acesse o SonarCloud](https://sonarcloud.io/summary/overall?id=MouseWeb_projeto-jsp)
+[Acesse o SonarCloud]()
 
-![image](https://github.com/MouseWeb/projeto-jsp/assets/40206726/f38893bf-d3a7-4c0b-85d6-52dccfcd9d4a)
-![image](https://github.com/MouseWeb/projeto-jsp/assets/40206726/8bda8d05-f3a7-4afd-b27d-95bf3188c843)
-![image](https://github.com/MouseWeb/projeto-jsp/assets/40206726/705b628e-cae5-45ae-9f2b-46ad3c0892fc)
+### Aqui estão os prints das telas do sistema:
+
+Tela da listagem de projetos
+
+![img.png](img.png)
+
+Tela de cadastro do projeto
+
+![img_1.png](img_1.png)
+
+Tela de atualização de um projeto
+
+![img_2.png](img_2.png)
+
+Tela com mensagem de validação (O status EM ANDAMENTO não permite exclusão.)
+
+![img_5.png](img_5.png)
+
+Tela com mensagem de validação (O status ENCERRADO não permite exclusão.)
+
+![img_6.png](img_6.png)
+
+Tela com mensagem de validação (O status INICIADO não permite exclusão.)
+
+![img_7.png](img_7.png)
+
+Tela da listagem de pessoas
+
+![img_3.png](img_3.png)
+
+Tela de cadastro de uma nova pessoa
+
+![img_4.png](img_4.png)
 
 
-### Usando Swagger
-
-[Acesse o SWAGGER](http://localhost:8080/swagger-ui.html#/)
-
-![image](https://github.com/MouseWeb/projeto-jsp/assets/40206726/fb283027-db0c-448c-869e-eaa601550f5c)
 
    
