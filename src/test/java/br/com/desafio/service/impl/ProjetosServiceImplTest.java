@@ -70,8 +70,10 @@ public class ProjetosServiceImplTest {
 
     @Test
     public void testDeletarProjetos() {
-        projetosService.deletarProjetos(1L);
-        verify(membrosService).deletarMembro(32L);
+        Long id = 10L;
+        projetosService.deletarProjetos(id);
+        verify(membrosService).deletarMembro(id + 35);
+        verify(projetosRepository).deleteById(id);
     }
 
     @Test

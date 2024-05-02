@@ -63,6 +63,7 @@ Tela de cadastro de uma nova pessoa
 
 ![img_4.png](img_4.png)
 
-
+O projeto abrange 54 testes unitários.
+![img_8.png](img_8.png)
 
    
