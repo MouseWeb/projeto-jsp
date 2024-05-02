@@ -71,7 +71,6 @@
                             <td>${pessoa.gerente ? 'Sim' : 'Não'}</td>
                             <td>
                                 <div class="btn-group" role="group" aria-label="Ações">
-                                    <a href="/buscar-pessoa/${pessoa.id}" class="btn btn-success">Atualizar</a>
                                     <a href="/deletar-pessoa/${pessoa.id}" class="btn btn-warning">Excluir</a>
                                 </div>
                             </td>

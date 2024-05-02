@@ -57,7 +57,7 @@ Tela com mensagem de validação (O status INICIADO não permite exclusão.)
 
 Tela da listagem de pessoas
 
-![img_3.png](img_3.png)
+![img_9.png](img_9.png)
 
 Tela de cadastro de uma nova pessoa
 
